@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #5BA4A4; /* hsl(180, 29%, 50%) - Desaturated Dark Cyan */
+  --color-neutral-background: #EFFAFA; /* hsl(180, 52%, 96%) - Light Grayish Cyan (Background) */
+  --color-neutral-tablets: #EEF6F6; /* hsl(180, 31%, 95%) - Light Grayish Cyan (Filter Tablets) */
+  --color-neutral-dark: #7B8E8E; /* hsl(180, 8%, 52%) - Dark Grayish Cyan */
+  --color-neutral-very-dark: #2C3A3A; /* hsl(180, 14%, 20%) - Very Dark Grayish Cyan */
+  
+  --font-family-sans: var(--font-spartan), sans-serif;
+}
+
+body {
+  background: #EFFAFA;
+  color: #2C3A3A;
+  font-family: var(--font-spartan), sans-serif;
+  font-size: 15px;
+}
+
+.header-bg {
+  background-image: url('/images/bg-header-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .header-bg {
+    background-image: url('/images/bg-header-desktop.svg');
+  }
+}
+
+/* hide nextjs-toast */
+.nextjs-toast {
+  display: none !important;
+}
