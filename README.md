@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Prerequisites
 
-- **Node.js**: Version 18.18.0 or higher (recommended: 18.18.2 as specified in `.nvmrc`)
+- **Node.js**: Version 18.18.2 or higher (recommended: 18.18.2 as specified in `.nvmrc`)
 - **Package Manager**: npm, yarn, pnpm, or bun
 
 You can use [nvm](https://github.com/nvm-sh/nvm) to install the correct Node.js version:
